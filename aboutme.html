@@ -1,0 +1,30 @@
+<head>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.6.347/build/pdf.min.js"></script>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("navbar.html", function (data) {
+            $("#navbar").replaceWith(data);
+        });
+    </script>
+</head>
+
+<body>
+    <div id="navbar">
+
+    </div>
+    <section id="aboutme">
+        <div class="container">
+            <iframe style="border: none;"
+                src="https://drive.google.com/file/d/1Bo9IPelwzKV-u8fOalBKYleuPt07c-Js/preview" width="100%"
+                height="73%"></iframe>
+        </div>
+    </section>
+    <section id="contactme">
+        <p>Please contact <a href="mailto:balakmr201@gmail.com">balakmr201@gmail.com</a> to directly contact me.</p>
+    </section>
+</body>
