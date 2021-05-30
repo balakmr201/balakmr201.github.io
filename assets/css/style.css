@@ -84,10 +84,10 @@ section .wave.wave3 {
     justify-content: space-evenly;
     margin: 0 auto;
     width: 201px;
-    font-size: 40px;
+    font-size: 45px;
     position: absolute;
-    left: 100px;
-    bottom: 95px;
+    left: 85px;
+    bottom: 108px;
 }
 .imgsocial a{
     color: #fff;
