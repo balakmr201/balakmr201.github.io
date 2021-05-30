@@ -84,10 +84,10 @@ section .wave.wave3 {
     justify-content: space-evenly;
     margin: 0 auto;
     width: 201px;
-    font-size: 40px;
+    font-size: 45px;
     position: absolute;
     left: 100px;
-    bottom: 95px;
+    bottom: 160px;
 }
 .imgsocial a{
     color: #fff;
@@ -135,6 +135,7 @@ section .wave.wave3 {
       height: 190vh;
     text-align: center;
   }
+<<<<<<< HEAD
   @media screen and (max-width: 1165px) and (min-width: 768px) {
       #navbar{
           width: 1150px;
@@ -152,3 +153,5 @@ section .wave.wave3 {
         display: none;
     }
   }
+=======
+>>>>>>> 9388e62cf45f3b49ca50f6e62d725d37bc119b08
