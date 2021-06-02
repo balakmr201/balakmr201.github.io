@@ -174,10 +174,16 @@ section .wave.wave3 {
       #shortMenu{
           display: none;
       }
+      #menuIconList{
+        display: none;
+    }
   }
 
   @media screen and (max-device-width : 768px) and (min-device-width: 426px) {
     #shortMenu{
+        display: none;
+    }
+    #menuIconList{
         display: none;
     }
   }
