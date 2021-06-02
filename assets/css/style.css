@@ -85,12 +85,9 @@ section .wave.wave3 {
     margin: 0 auto;
     width: 201px;
     font-size: 40px;
-    position: absolute;
-    left: 100px;
-    bottom: 160px;
 }
 .imgsocial a{
-    color: #fff;
+    color: #545b62;
 }
 .navitem a{
     color: #fff;
