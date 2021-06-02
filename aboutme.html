@@ -10,6 +10,14 @@
         $.get("navbar.html", function (data) {
             $("#navbar").replaceWith(data);
         });
+        function openMenu(x){
+    x.classList.toggle("change");
+    var menu = document.getElementById("menuIconList")
+    if(menu.style.display == "")
+    menu.style.display = "flex"
+    else
+    menu.style.display = ""
+  }
     </script>
 </head>
 
@@ -18,7 +26,12 @@
 
     </div>
     <section id="aboutme">
-        <div class="container">
+        <div id="menuIconList">
+            <a id="menu-home" onclick="changeClass()" href="./index.html">Home</a>
+            <a id="menu-resume" onclick="changeClass()" href="./aboutme.html"> About me </a>
+            <a>Projects/Blogs</a>
+      </div>
+        <div class="container" style="padding-top: 20px;">
             <iframe style="border: none;"
                 src="https://drive.google.com/file/d/1nwmgIH0USCq1RveyONpnXP_DdSMAKPBg/preview" width="100%"
                 height="73%"></iframe>

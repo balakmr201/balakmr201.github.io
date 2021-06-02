@@ -18,10 +18,15 @@
     <div id="navbar">
 
     </div>
-    <div style="margin: 0 auto;">
-        <section style="background: #fff;height: 90vh;">
-            <div style="display:grid;grid-template-columns: 35% 65%;">
-                <div style="padding-left: 20px;">
+    <div style="margin: 0 auto;padding: 15px">
+        <div id="menuIconList">
+            <a id="menu-home" onclick="changeClass()" href="./index.html">Home</a>
+            <a id="menu-resume" onclick="changeClass()" href="./aboutme.html"> About me </a>
+            <a>Projects/Blogs</a>
+      </div>
+        <div style="background: #fff;height: 90vh;">
+            <div id="sectionContainer">
+                <div style="padding: 20px;margin: 0 auto;">
                     <img style="border-radius: 25%;" width="380" src="assets/images/profilepic.jpg">
                     <div class="imgsocial">
                         <div>
@@ -35,13 +40,13 @@
                         </div>
                     </div>
                 </div>
-                <div style="background: #111;color: #eee;border-radius: 20px;padding: 50px;">
+                <div class="aboutText">
                     <h1>&lt;h1&gt; Balakumar &lt;h1&gt;</h1>
                     <h3>&lt;h3&gt; Full stack Developer &lt;h3&gt;</h3>
                     <h3>A Determinate software developer with skills in <span class="typewriter" data-period="1000" data-technology='["Angular","Javascript","React","HTML","CSS",".Net","SQL","Mongo DB"]'>  </span></h3>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
 </body>
 <script src="index.js"></script>

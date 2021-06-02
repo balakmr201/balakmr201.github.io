@@ -64,3 +64,12 @@ var css = document.createElement("style");
   css.type = "text/css";
   css.innerHTML = ".typewriter > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
+
+  function openMenu(x){
+    x.classList.toggle("change");
+    var menu = document.getElementById("menuIconList")
+    if(menu.style.display == "")
+    menu.style.display = "flex"
+    else
+    menu.style.display = ""
+  }

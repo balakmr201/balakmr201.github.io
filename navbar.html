@@ -17,7 +17,7 @@
                 <img width="200" src="assets/images/Logo.svg">
             </li>
         </ul>
-        <ul class="navlist">
+        <ul class="navlist" id="menulist">
             <li class="navitem">
                 <a id="menu-home" onclick="changeClass()" href="./index.html">Home</a>
             </li>
@@ -28,12 +28,13 @@
                 <a>Projects/Blogs</a>
             </li>
         </ul>
-        <!-- <ul class="navlist">
-            <li class="navitem">
-                <a id="menu-home" onclick="changeClass()" href="./index.html">
-                    <i class="fa fa-bars" aria-hidden="true"></i></a>
-            </li>
-        </ul> -->
+        <div style="margin: 50px;" id="shortMenu" >
+            <div onclick="openMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+        </div>
     </div>
 </section>
 <!-- <section style="position: absolute;top: 0px;">
